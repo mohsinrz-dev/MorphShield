@@ -24,7 +24,7 @@ export default function App() {
   const [settings, setSettings] = useState({ threshold: 60, audioEnabled: true, videoEnabled: true, warningEnabled: true })
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', background: '#0a0f1a' }}>
         <Navbar />
         <main style={{ flex: 1 }}>

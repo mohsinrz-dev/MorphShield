@@ -26,6 +26,17 @@ Runs at → http://localhost:5173
 
 Then open http://localhost:5173 in your browser.
 
+## GitHub Pages
+
+The frontend is deployed from the `frontend` directory by the
+[Deploy GitHub Pages workflow](./.github/workflows/deploy-pages.yml) whenever
+changes are pushed to `main`. The live site is
+https://mohsinrz-dev.github.io/MorphShield/.
+
+GitHub Pages hosts only static frontend files. API-backed features require the
+backend to be deployed separately and the frontend API URL to be configured for
+that hosted backend.
+
 ---
 
 ## ✅ What is complete
